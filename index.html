@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <link rel="icon" type="image/png" href="assets/icons/favicon-ay.png">
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Abayomi | Backend Developer</title>
+  </head>
+
+  <body style="background-color: goldenrod;">
+    <!-- Navbar -->
+    <nav style="background-color: black;">
+      <h1><a href="#" class="nav-link">AB</a></h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+        <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
+      </button>
+    </nav>
+    
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <img
+        src="assets/images/my-pic.jpeg"
+        alt="ayobam"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          I am Olowu Abayomi Sikiru, a Backend Developer.
+          A Graduate of Computer Science with Higher National Diploma Degree at Moshood Abiola Polytechnic.
+          <p><b>EMAIL:</b> aayobam@gmail.com</p>
+          <p><b>PHONE:</b> +2347038708047</p> 
+        </p>
+        <div class="about-buttons">
+          <button>
+            <a href="https://drive.google.com/file/d/118dBt4Mi1bDTZdgNSF172cmvfoSc0Epx/view?usp=sharing"  target="_blank">
+              Download CV
+            </a>
+          </button> 
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- More about -->
+    <section class="more-about" style="background-color: black; color: azure;">
+      <h2 style="margin-top: 30px;">More About Me</h2>
+      <p>
+        <p>
+          I'm a backend web developer with over 2 years experience developing websites using python , 
+          django and related tech stacks. 
+        </p>
+        <p>
+          I'm self motivating and can work with less to no supervision.I've available for collaborations, 
+          fulltime, partime or contract hybrid jobs. 
+        </p>
+        <p>
+          I've self developed and collaborated on several remotely, 
+          led group of designers, backend and frontend developers to beginning and completion of software projects. 
+        </p>
+        <p>
+          You can reach out to me through my emails or social media platforms.
+        </p>
+      <div class="education" style="margin-top: 50px; margin-bottom: 20px;">
+        <h2>Education/Bootcamp/Internships</h2>
+
+          <p>HNG INTERNSHIP | AUGUST - OCTOBER 2021
+            Course: Backend web development with python and django framework.
+          </p>
+
+          <p>RESKILL AMERICAN BOOTCAMP | MARCH - OCTOBER 2021
+            COURSE: Backend web development with python and django framework.
+          </p>
+
+          <p>ZURI INTERNSHIP | MARCH - JULY 2021
+            Course: Backend web development with python and django framework.
+          </p>
+
+          <p>YEAR: 2019
+              INSTITUTION: Moshood Abiola Polytechnic.
+              Degree:  Higher National Diploma.
+              Course: Computer Science.
+          </p>
+      </div>
+
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/bootstrap-icon.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/css-icon.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/django-icon.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/html-icon.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/python-icon.jfif"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/restapi-icon.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/postgress-icon.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/mysql-icon.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/github-icon.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects" style="background-color: black;">
+      <h2 class="projects-title" style="color:whitesmoke">Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/ecommerce.jpeg"
+            alt="expense-tracker"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">E-Commerce Website</h3>
+          <p class="project-details">
+            <b>Description:</b> this is an e-commerce website for shopping various kinds of product.
+            Users gets to track their orders and have best experience shopping as the website is easy to navigate.
+          </p>
+          <a href=" https://ghostretail.herokuapp.com" target="_blank" class="project-link" style="padding-right: 20px;">Live Link</a>
+          <a href=" https://github.com/aayobam/sales-inventory-system-e-commerce" target="_blank" class="project-link">Github Link</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/budget-app.jpeg"
+            alt="netflic-clone"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Budget App</h3>
+          <p class="project-details">
+            <b>Description:</b> This is a website developed for users to 
+            budget fixed part of their income thereby inscreasing amount been saved and keeping track of their expenses.
+          </p>
+          <a href=" https://baytechmoneytracker.herokuapp.com" target="_blank" class="project-link" style="padding-right: 20px;">Live Link</a>
+          <a href=" https://github.com/aayobam/moneytracker" target="_blank" class="project-link">Github Link</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/blog-site.jpeg"
+            alt="greeny-earth"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Blog Website</h3>
+          <p class="project-details">
+            <b>Description</b>: This is a fully functional blog website for purpose of blogging.
+            I might be using this for documentation in the future, winks.
+          </p>
+          <a href=" https://baytechblog.herokuapp.com" target="_blank" class="project-link" style="padding-right: 20px;">Live Link</a>
+          <a href="https://github.com/aayobam/baytechblog" target="_blank" class="project-link">Github Link</a>
+        </div>
+      </div>
+
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/investment.jpeg"
+            alt="expense-tracker"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Investment and Logistics Website</h3>
+          <p class="project-details">
+            <b>Description:</b> This is an investment and logistics websites which 
+            aims at training users on how to invest on forex as well as providing delivery of products(items) to end users.          </p>
+          <a href="https://mogdynamics.herokuapp.com" target="_blank" class="project-link" style="padding-right: 20px;">Live Link</a>
+          <a href="https://github.com/aayobam/mog_dynamics" target="_blank" class="project-link">Github Link</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/crypto.jpeg"
+            alt="netflic-clone"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Cyrptocurrency Website</h3>
+          <p class="project-details">
+            <b>Description:</b>This is a crypto training websites that offers paid membership. 
+            This site provides free and premium blog posts about crypto currencies and trainig.
+            It has flutterwave payment gateway integrated to it.          </p>
+          <a href="https://unknownsatoshi.herokuapp.com" target="_blank" class="project-link" style="padding-right: 20px;">Live Link</a>
+          <a href="https://github.com/matmaxgraphics/satoshi-backend" target="_blank" class="project-link">Github Link</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/icons/zurichat.png"
+            alt="greeny-earth"
+            loading="lazy"
+            class="project-pic"
+            style="width: 20%; height: 20%;"
+          />
+          <h3 class="project-title">Zurichat Application</h3>
+          <p class="project-details">
+            <b>Calendar Plug-in</b>: Worked as team lead and also as core contributor of the calendar
+            plugin development team. We used Django for the backend.
+          </p>
+          <p class="project-details">
+            <b>Direct Message(DM) Plug-in</b>: Contributed to the codebase of DM of zurichat application. Also we used Django for the backend.
+          </p>
+          <a href="https://github.com/zurichat/zc_plugin_company_holiday_calendar" 
+            target="_blank" 
+            class="project-link" 
+            style="padding-right: 20px;">Calendar Github Link
+          </a>
+          <a href=" https://github.com/zurichat/zc_plugin_dm" 
+            target="_blank" 
+            class="project-link">DM Github Link
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <p style="text-align: center; font-size: 20px; margin-bottom: 10px; font-style: italic;">I reply instantly</p>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formsubmit.co/aayobam@gmail.com" method="POST">
+            <div class="form-control">
+              <label for="name">Full Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              name="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+            
+            <input type="hidden" name="_next" value="https://aayobam.github.io/portfolio-thankyou-page/">
+
+            <input type="hidden" name="_subject" value="NEW PORTFOLIO WEBSITE SUBMISSION!">
+
+            <input type="text" name="_honey" style="display:none">
+
+            <input type="hidden" name="_autoresponse" value="Thank You for Contacting Me, Your Request has been Received and you'll be attended to Shortly.">
+         
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      <a href="https://twitter.com/yungelda" target="_blank"
+        ><img
+          src="assets/icons/icons8-twitter-circled.gif"
+          alt="Twitter"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="mailto:aayobam@gmail.com" target="_blank"
+        ><img
+          src="assets/icons/icons8-gmail-logo.gif"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://api.whatsapp.com/send?phone=2347038708047" target="_blank"
+        ><img
+          src="assets/icons/icons8-whatsapp-48.png"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://linkedin.com/in/aayobam" target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/aayobam" target="_blank"
+        ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+      /></a>
+    </div>
+
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets/icons/icons8-upward-arrow.gif"
+        class="socicon up-arrow"
+        alt=""
+    /></i>
+
+    <!-- Footer section -->
+    <footer style="background-color: black; color: aqua;">
+      <p class="copy">&copy; Copyright 2021</p>
+      <p class="copy">
+        Built with &#x2661; by
+        <a href="#" target="_blank"
+          >Olowu Abayomi</a
+        >
+      </p>
+    </footer>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
